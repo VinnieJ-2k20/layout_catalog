@@ -3,15 +3,16 @@
   flex-direction: column;
   align-items: center;
   width: $card-width;
-  padding: 27px 14px 15px;
+  padding: 14px 14px 15px;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
 
   &__image-container {
-    height: 140px;
+    height: 153px;
     width: 166px;
     display: flex;
     justify-content: center;
+    padding-top: 13px;
     align-items: center;
     border: 3px solid transparent;
     border-radius: 5px;
