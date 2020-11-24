@@ -1,12 +1,10 @@
 .navigation {
   &__list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    column-gap: 20px;
     padding-left: 0;
     list-style: none;
-  }
-
-  &__item:nth-child(n+2) {
-    margin-left: 20px;
   }
 
   &__link {
