@@ -1,9 +1,8 @@
 .container {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(auto-fill, $card-width);
   column-gap: 48px;
   row-gap: 50px;
-  padding: 0 48px;
-  margin: auto;
+  max-width: 944px;
 }
